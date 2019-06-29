@@ -1,1 +1,2 @@
-osascript -e ‘tell application “Finder” to set desktop picture to POSIX file “/Users/$USER/Desktop/apod.jpg”’
+imgPath=/Users/$USER/Desktop/apod.jpg
+osascript setBackground.scpt $imgPath
