@@ -1,5 +1,5 @@
-if [[ $(ls | grep apod.jpg) ]]; then
-  rm -f apod.jpg
+if [[ $(ls /Users/$USER/Desktop/ | grep apod.jpg) ]]; then
+  rm -f /Users/$USER/Desktop/apod.jpg
   echo "file removed"
 else
   echo "no apod.jpg file from recent execution found"
@@ -13,4 +13,4 @@ imgPath=$(curl $homeUrl | grep "href=\".*[\.jpg|\.png|\.jpeg|\.gif]\">$")
 len=${#imgPath}
 imgUrl=$(echo ${baseUrl}${imgPath:9:(len-11)})
 
-wget $imgUrl -O /Users/$USER/Desktop/apod.jpg
+/usr/local/bin/wget $imgUrl -O /Users/$USER/Desktop/apod.jpg
