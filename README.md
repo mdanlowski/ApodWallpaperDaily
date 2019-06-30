@@ -20,6 +20,11 @@ Help wanted and appreciated!
 - [ ] Linux /Debian based
 
 ## Known issues
+
+### General
+
+- [ ] Unhandled case when APOD item is a video
+
 ### Mac
  
 - Please make sure you have wget installed as /usr/local/bin/wget
