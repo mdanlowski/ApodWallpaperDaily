@@ -16,6 +16,7 @@ Help wanted and appreciated!
   - [x] Web scraping with curl and download image with wget
   - [x] Setting desktop wallpaper using AppleScript (osascript)
   - [x] Set the script to run daily at 12:00 with crontab
+  - [ ] FIXME: Images should have different names cause the system does not always change the background
   - [ ] Setup a script and endpoint to download and install automatically
 - [ ] Linux /Debian based
 
