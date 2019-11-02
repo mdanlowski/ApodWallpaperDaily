@@ -1,5 +1,5 @@
 # ApodWallpaperDaily
-An experiment to set desktop wallpaper to NASA's Astronomy Picture of the Day
+An experiment to set desktop wallpaper to NASA's [Astronomy Picture of the Day](https://apod.nasa.gov/)
 
 ## MacOS working beta is here! - Installation
 Clone the repository or download the `macos` folder and run `install.sh`
